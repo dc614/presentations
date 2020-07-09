@@ -1,4 +1,4 @@
-﻿function Create-PSProfile {
+function Create-PSProfile {
 $PROFILE_DIR = Split-Path $PROFILE.CurrentUserCurrentHost
 $_PS1XML_DATA = @'
 <?xml version="1.0" encoding="utf-8" ?>
